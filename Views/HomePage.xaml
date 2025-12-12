@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BCSQuiz.Views.HomePage"
+             Title="Home Page">
+    <VerticalStackLayout Spacing="5">
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="ctgBtn" Clicked="ctgBtn_Clicked" Text="Category"/>
+        <Button x:Name="strBtn" Text="Start" Clicked="strBtn_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
