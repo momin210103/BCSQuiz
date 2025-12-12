@@ -32,14 +32,14 @@ private static List<Contact> _contacts = new List<Contact>()
 
 **Current Code:**
 ```csharp
-new Contact { ContactId = 1, Name = "Momin",Email="momincse13@gmail.com" },
-new Contact { ContactId = 2, Name = "Sazzad",Email="Momin17@gmail.com" },
-new Contact { ContactId = 3, Name = "Johab", Email = "momincse13@gmail.com" }
+new Contact { ContactId = 1, Name = "Momin",Email="[personal-email]" },
+new Contact { ContactId = 2, Name = "Sazzad",Email="[personal-email]" },
+new Contact { ContactId = 3, Name = "Johab", Email = "[personal-email]" }
 ```
 
 **Problems:**
-- Real email addresses in code
-- Duplicate email (momincse13@gmail.com)
+- Real/personal email addresses in code (privacy concern)
+- Duplicate email addresses
 - Inconsistent spacing around `=`
 
 **Fix:**

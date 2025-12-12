@@ -75,7 +75,8 @@ public class Contact
    **Recommendation:** Make private and expose through methods only
 
 2. **⚠️ Hardcoded Test Data:** Contains placeholder email addresses with duplicates
-   - `momincse13@gmail.com` appears twice
+   - Email addresses appear to be real/personal addresses (should use example.com)
+   - Duplicate email addresses in the dataset
    - This is clearly test/development data
 
 3. **⚠️ No CRUD Methods:** Missing Create, Update, and Delete operations
